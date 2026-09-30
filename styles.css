@@ -1,0 +1,436 @@
+*{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+.nav ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+color: white;
+}
+.nav{
+    background-color: rgb(122, 132, 143);
+    padding: 5px;
+    width: 100%;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 170px;
+    text-align: center;
+}
+.hero{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-bottom: 30px;
+
+}
+.box1,.box2,.box3,.box4{
+    min-height: 300px;
+    width: 100%;
+   
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+/* .box1{
+    background-color: aqua;
+} */
+/* .box3{
+    background-color: rgb(168, 114, 219);
+} */
+
+
+.box2{
+    background-color: rgb(116, 200, 154);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.box2,.box4 h4,p{
+   text-align: center;
+   color: white;
+
+}
+h4{
+    margin-top: 5px;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+    color: white;
+
+}
+/* .box2,.box4 p{
+    font-size: 13px;
+    color:white;
+    
+} */
+
+.box4{
+    background-color: rgb(98, 124, 137);
+     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mid{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/pexels-lunmaily-perez-2163485232-39268419.jpg);
+    background-size: cover;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+
+}
+#para{
+    font-size: 100px;
+    color: rgb(73, 84, 90);
+}
+.foot{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.foot_box1,.foot_box2,.foot_box3{
+    width: 100%;
+    flex-grow:1;
+    min-height: 150px;
+}
+.foot_box1{
+    background-color: rgb(169, 147, 147);
+}
+.foot_box2,.foot_box1{
+
+    display: flex;
+    flex-direction: column;
+   
+}
+.foot_box3{
+    background-color: rgb(169, 147, 147);
+}
+.foot_box2{
+    background-color: rgb(103, 165, 141);
+}
+.discount{
+    color: white;
+}
+/* @media screen and (max-width:500px) {
+ 
+}
+@media screen and (max-width:500px) {
+    #para{
+    font-size: 50px;
+    color: rgb(73, 84, 90);
+}
+}
+@media  screen and (max-width:500px) {
+    .discount{
+    color: white;
+    font-size: 50px;
+}
+} */
+@media screen and (max-width:767px){
+    .box1,.box2,.box3,.box4,img{
+    min-height: 265px;
+    width: 100%;
+    font-size: 13px;
+   
+}
+   h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(139, 168, 178);
+}
+body{
+    padding: 5px;
+}
+.nav{
+    background-color: rgb(122, 132, 143);
+    padding: 5px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav{
+    background-color: rgb(122, 132, 143);
+    padding: 10px;
+    width: 100%;
+    
+}
+.navtext{
+    display: flex;
+    flex-direction: column;  
+}
+.box2 h4,.box4 h4{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 243, 9);
+}
+.box2,.box4{
+    padding: 60px;
+}
+.mid{
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/pexels-lunmaily-perez-2163485232-39268419.jpg);
+    background-size: cover;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    background-position: center;
+   align-items: center;
+   position: relative;
+  
+  
+}
+.mid::before{
+    content: "";
+    inset:0;
+    background-color: rgba(203, 52, 62, 0.386);
+    position: absolute;
+   
+}
+#para{
+    font-size: 59px;
+    color: rgb(253, 229, 10);
+    z-index: 1;
+}
+.foot_box1,.foot_box2{
+    width: 48%;
+    flex-grow:1;
+   padding: 10px;
+}
+.foot_box3{
+   width: 100%;
+    flex-grow:1;
+   
+    border-radius: 0px 0px 10px 10px;
+}
+.discount{
+    color: rgb(111, 213, 169);
+    font-size: 100px;
+}
+}
+
+
+
+@media  screen and (max-width:1023px) and (min-width:768px) {
+      .box1,.box2,.box3,.box4{
+    min-height: 265px;
+    width: 50%;
+   font-size: 15px;
+}
+   h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(146, 165, 171);
+}
+body{
+    padding: 5px;
+}
+.nav{
+    background-color: rgb(122, 132, 143);
+    padding: 5px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav{
+    background-color: rgb(125, 146, 168);
+    padding: 10px;
+    width: 100%;
+    font-size:20px;
+    
+    
+}
+.navtext{
+    display: flex;
+    flex-direction: column;  
+   
+}
+#year{
+    text-align:center;
+}
+.box2 h4,.box4 h4{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 243, 9);
+}
+.box2,.box4{
+    padding: 60px;
+}
+.mid{
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/pexels-lunmaily-perez-2163485232-39268419.jpg);
+    background-size: cover;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    background-position: center;
+   align-items: center;
+   position: relative;
+  
+  
+}
+.mid::before{
+    content: "";
+    inset:0;
+    background-color: rgba(203, 52, 62, 0.386);
+    position: absolute;
+   
+}
+#para{
+    font-size: 80px;
+    color: rgb(253, 229, 10);
+    z-index: 1;
+}
+.foot_box1,.foot_box2{
+    width: 48%;
+    flex-grow:1;
+   padding: 10px;
+}
+.foot_box3{
+   width: 100%;
+    flex-grow:1;
+   
+    border-radius: 0px 0px 10px 10px;
+}
+.discount{
+    color: rgb(111, 213, 169);
+    font-size: 100px;
+}
+  
+}
+@media  screen and (min-width:1024px)  {
+ .box1,.box2,.box3,.box4{
+    min-height: 265px;
+    width: 25%;
+   font-size: 20px;
+}
+   h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 200px;
+    color: rgb(146, 165, 171);
+}
+body{
+    padding: 5px;
+}
+.nav{
+    background-color: rgb(122, 132, 143);
+    padding: 5px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav{
+    background-color: rgb(125, 146, 168);
+    padding: 10px;
+    width: 100%;
+    font-size:20px;
+    
+    
+}
+.navtext{
+    display: flex;
+    flex-direction: column;  
+   
+}
+#year{
+    text-align:center;
+}
+.box2 h4,.box4 h4{
+    margin-top: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 243, 9);
+}
+.box2,.box4{
+    padding: 60px;
+}
+.mid{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/pexels-lunmaily-perez-2163485232-39268419.jpg);
+    background-size: cover;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    background-position: center;
+   align-items: center;
+   position: relative;
+  
+  
+}
+.mid::before{
+    content: "";
+    inset:0;
+    background-color: rgba(203, 52, 62, 0.386);
+    position: absolute;
+   
+}
+#para{
+    font-size: 120px;
+    color: rgb(253, 229, 10);
+    z-index: 1;
+}
+
+.foot_box1,.foot_box2{
+    width: 48%;
+    min-height: 46vh;
+    flex-grow:1;
+   padding: 80px;
+}
+.foot_box1 p,.foot_box2 p{
+  font-size: 30px;
+}
+.foot_box1 h2,.foot_box2 h2{
+  font-size: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.foot_box3{
+   width: 100%;
+    flex-grow:1;
+   min-height: 300px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discount{
+    color: rgb(111, 213, 169);
+    font-size: 160px;
+   
+}
+.foot_box3 p{
+    font-size: 30px;
+}
+  
+  
+}
